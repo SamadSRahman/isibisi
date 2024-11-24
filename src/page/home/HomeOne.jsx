@@ -12,34 +12,42 @@ import Team1Img from "../../assets/images/team/team1.png";
 import Team2Img from "../../assets/images/team/team2.png";
 import Team3Img from "../../assets/images/team/team3.png";
 import Team4Img from "../../assets/images/team/team4.png";
+import vidya from "../../assets/images/team/vidya (1).webp"
+import sandesh from "../../assets/images/team/sandesh.webp"
+import minakshi from "../../assets/images/team/meenakshi.webp"
 
 const servicesData = [
 	{
 		id: crypto.randomUUID(),
-		title: "UI/UX Design",
+		title: "Content Creation",
+		route:"/content-creation-service",
 		description:
-			"Focusing on user interface (UI) and user experience (UX) design enhance the usability and accessibility of digital products & app.",
+			"Crafting compelling visuals, 3D designs, videos, and logos that bring your brand to life.",
 		icon: "icon-design-tools",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Graphic Design",
+		route:"/technology-service",
+		
+		title: "Technology",
 		description:
-			"Creating visual elements such as logos, branding materials, page layout techniques, brochures, & other marketing collateral.",
+			"Building cutting-edge apps and leveraging AI to create dynamic, personalized video content.",
 		icon: "icon-branding",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Web Design",
+		title: "PR & Marketing",
+		route:"/marketing-service",
 		description:
-			"Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.",
+			"Amplifying your brand's voice through strategic public relations and targeted marketing campaigns.",
 		icon: "icon-web",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Motion Graphics",
+		title: "CMS",
+		route:"/content-management-service",
 		description:
-			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
+			"Driving results with data-driven content strategies and performance insights.",
 		icon: "icon-design-thinking",
 	},
 ];
@@ -47,27 +55,24 @@ const servicesData = [
 const teamsData = [
 	{
 		id: crypto.randomUUID(),
-		name: "Andrew Mark",
-		designation: "Creative Director",
-		img: Team1Img,
+		name: "Sandesh P",
+		designation: "Founder & CEO",
+		img: sandesh,
+		link:"https://www.linkedin.com/in/sandeshpare/"
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Jack Taylor",
-		designation: "Senior Designer",
-		img: Team2Img,
+		name: "Vidhyarekha",
+		designation: "Consulting Partner",
+		img: vidya,
+		link:"https://www.linkedin.com/in/vidhya-rekha-26461b1",
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Martine Joy",
-		designation: "Project Manager",
-		img: Team3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Adam Straw",
-		designation: "Web Developer",
-		img: Team4Img,
+		name: "Meenakshi Singh",
+		designation: "Consulting Partner",
+		link:"https://www.linkedin.com/in/meenakshi-singh-mahapatra/",
+		img: minakshi,
 	},
 ];
 
@@ -77,7 +82,7 @@ function HomeOne() {
 			<Hero />
 			<Services services={servicesData} />
 			<About />
-			<Projects />
+			{/* <Projects /> */}
 			<WhyChooseUs />
 			<Testimonial />
 			<AutoSlider />

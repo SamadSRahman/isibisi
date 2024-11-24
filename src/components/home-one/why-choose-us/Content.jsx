@@ -13,7 +13,7 @@ function Content() {
 			</h2>
 			<p>
 				We focus at every stage on effective communication and collaboration between the client and ensuring
-				that the final design meets the client s objectives and expectations.
+				that the final design meets the client's objectives and expectations.
 			</p>
 			<p>
 				It is important to note that these are simplified steps, and the actual work process may vary depending

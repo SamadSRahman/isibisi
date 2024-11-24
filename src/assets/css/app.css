@@ -4803,7 +4803,10 @@ span.aximo-hero-shape-title2 {
 	position: relative;
 	border-radius: 15px;
 	overflow: hidden;
+	border-radius: 50%;
+	width: fit-content;
 	border: 5px solid var(--dark-bg);
+	margin: auto;
 }
 .aximo-team-thumb img {
 	transition: all 0.5s;
@@ -4861,7 +4864,21 @@ span.aximo-hero-shape-title2 {
 .aximo-team-data2 p {
 	font-size: 21px;
 }
-
+.logo-section{
+	/* border: 1px solid red; */
+	display: flex;
+	flex-wrap: wrap;
+	gap: 35px;
+	justify-content: center;
+}
+.logo-section img{
+	max-width: 130px;
+	object-fit: contain;
+}
+.logo-section img:hover{
+	transform: scale(1.1) translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+}
 .aximo-team-details-thumb {
 	border-radius: 20px;
 	overflow: hidden;
@@ -8325,7 +8342,7 @@ a.aximo-connect-login img {
 .aximo-section-title.center {
 	margin: 0 auto;
 	text-align: center;
-	max-width: 800px;
+	/* max-width: 800px; */
 }
 .aximo-section-title.center.full-width {
 	max-width: 100%;
@@ -9160,7 +9177,7 @@ a.aximo-connect-login img {
 .aximo-user-interface ul li {
 	position: relative;
 	padding-left: 15px;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 .aximo-user-interface ul li:last-child {
 	margin-bottom: 0;

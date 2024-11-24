@@ -16,7 +16,9 @@ function Teams({ teams }) {
 						</span>
 					</h2>
 				</div>
-				<div className="row">
+				<div className="row"
+				
+				style={{justifyContent:"space-around"}}>
 					{teams.map((team) => (
 						<TeamCard key={team.id} team={team} />
 					))}

@@ -31,14 +31,14 @@ function ContactInfo() {
 						</a>
 					</div>
 					<div className="col-xl-4 col-md-6">
-						<a href="">
+						<a href="mailto:sandesh@isibisi.in">
 							<div className="aximo-contact-info-box">
 								<div className="aximo-contact-info-icon">
 									<img src={EmailImg} alt="Email" />
 								</div>
 								<div className="aximo-contact-info-data">
 									<span>Connect with us</span>
-									<p> Sandesh.p@isibisi.in </p>
+									<p>  sandesh@isibisi.in  </p>
 								</div>
 							</div>
 						</a>

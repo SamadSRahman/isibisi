@@ -41,7 +41,8 @@ function ContactForm() {
   
       if (response.ok) {
         console.log('Data successfully submitted');
-        navigate('/single-portfolio'); // Navigate to the desired page
+        alert("Thank you for your interest! We'll be in touch with you soon")
+        navigate('/'); 
 
       } else {
         console.error('Failed to submit data');

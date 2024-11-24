@@ -8,40 +8,39 @@ import Team1Img from "../assets/images/team/team1.png";
 import Team2Img from "../assets/images/team/team2.png";
 import Team3Img from "../assets/images/team/team3.png";
 import Team4Img from "../assets/images/team/team4.png";
+import vidya from "../assets/images/team/vidya (1).webp"
+import sandesh from "../assets/images/team/sandesh.webp"
+import minakshi from "../assets/images/team/meenakshi.webp"
 
 const teamsData = [
 	{
 		id: crypto.randomUUID(),
-		name: "Andrew Mark",
-		designation: "Creative Director",
-		img: Team1Img,
+		name: "Sandesh P",
+		designation: "Founder & CEO",
+		img: sandesh,
+		link:"https://www.linkedin.com/in/sandeshpare/"
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Jack Taylor",
-		designation: "Senior Designer",
-		img: Team2Img,
+		name: "Vidhyarekha",
+		designation: "Consulting Partner",
+		img: vidya,
+		link:"https://www.linkedin.com/in/vidhya-rekha-26461b1",
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Martine Joy",
-		designation: "Project Manager",
-		img: Team3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Adam Straw",
-		designation: "Web Developer",
-		img: Team4Img,
+		name: "Meenakshi Singh",
+		designation: "Consulting Partner",
+		link:"https://www.linkedin.com/in/meenakshi-singh-mahapatra/",
+		img: minakshi,
 	},
 ];
-
 function AboutUs() {
 	return (
 		<>
 			<BreadCrumb title="About Us" />
 			<About />
-			<Story />
+			{/* <Story /> */}
 			<AutoSlider />
 			<Teams teams={teamsData} />
 		</>

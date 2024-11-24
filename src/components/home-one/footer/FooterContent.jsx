@@ -1,5 +1,6 @@
 import Shape1Img from "../../../assets/images/v1/shape1.png";
 import Star2Img from "../../../assets/images/v1/star2.png";
+import youtube from './youtube-play.png'
 function FooterContent() {
 	return (
 		<div className="aximo-default-content light position-relative">
@@ -30,7 +31,7 @@ function FooterContent() {
 					<ul>
 						<li>Send us an email:</li>
 						<li>
-							<a href="mailto:Sandesh.p@isibisi.in"> Sandesh.p@isibisi.in </a>
+							<a href="mailto:sandesh@isibisi.in "> sandesh@isibisi.in  </a>
 						</li>
 					</ul>
 				</div>
@@ -38,22 +39,22 @@ function FooterContent() {
 			<div className="aximo-social-icon social-large">
 				<ul>
 					<li>
-						<a href="https://twitter.com/" target="_blank">
-							<i className="icon-twitter"></i>
+						<a href="https://youtube.com/@isibisi_studio?si=nBw5rz6HFfdehdRH" target="_blank">
+							<i className="icon-youtube-play"></i>
 						</a>
 					</li>
 					<li>
-						<a href="https://facebook.com/" target="_blank">
+						<a href="https://www.facebook.com/share/Ur3bqvaxCUr3LBoc/?mibextid=LQQJ4d" target="_blank">
 							<i className="icon-facebook"></i>
 						</a>
 					</li>
 					<li>
-						<a href="https://www.instagram.com/" target="_blank">
+						<a href="https://www.instagram.com/isibisi.in/profilecard/?igsh=NjVvYzhlc2o0ZW9n" target="_blank">
 							<i className="icon-instagram"></i>
 						</a>
 					</li>
 					<li>
-						<a href="https://www.linkedin.com/" target="_blank">
+						<a href="https://www.linkedin.com/company/isibisidotin/" target="_blank">
 							<i className="icon-linkedin"></i>
 						</a>
 					</li>

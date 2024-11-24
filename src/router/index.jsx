@@ -35,6 +35,10 @@ import SingleTeam from "../page/team/SingleTeam.jsx";
 import CommingSoon from "../page/utility/CommingSoon.jsx";
 import Faq from "../page/utility/Faq.jsx";
 import TestimonialPage from "../page/utility/Testimonial.jsx";
+import ContentCreation from "../components/service/ContentCreation.jsx";
+import ContentManagement from "../components/service/ContentManagement.jsx";
+import PRAndMarketing from "../components/service/PRAndMarketing.jsx";
+import Technology from "../components/service/Technology.jsx";
 
 export const router = createBrowserRouter([
 	{
@@ -90,6 +94,22 @@ export const router = createBrowserRouter([
 					{
 						path: "/single-service",
 						element: <SingleService />,
+					},
+					{
+						path: "/content-creation-service",
+						element: <ContentCreation />,
+					},
+					{
+						path: "/content-management-service",
+						element: <ContentManagement />,
+					},
+					{
+						path: "/marketing-service",
+						element: <PRAndMarketing />,
+					},
+					{
+						path: "/technology-service",
+						element: <Technology />,
 					},
 					{
 						path: "/team",

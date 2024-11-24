@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-function TeamCard({ team: { name, designation, img } }) {
+function TeamCard({ team: { name, designation, img, link } }) {
 	return (
 		<div className="col-xl-3 col-md-6">
 			<div className="aximo-team-wrap">
@@ -7,7 +7,7 @@ function TeamCard({ team: { name, designation, img } }) {
 					<img src={img} alt={name} />
 					<div className="aximo-social-icon team-social">
 						<ul>
-							<li>
+							{/* <li>
 								<a href="">
 									<i className="icon-twitter"></i>
 								</a>
@@ -21,9 +21,9 @@ function TeamCard({ team: { name, designation, img } }) {
 								<a href="">
 									<i className="icon-instagram"></i>
 								</a>
-							</li>
+							</li> */}
 							<li>
-								<a href="">
+								<a href={link} target="_blank">
 									<i className="icon-linkedin"></i>
 								</a>
 							</li>
@@ -31,9 +31,9 @@ function TeamCard({ team: { name, designation, img } }) {
 					</div>
 				</div>
 				<div className="aximo-team-data">
-					<Link to="/single-team">
+					{/* <Link to="/single-team"> */}
 						<h3>{name}</h3>
-					</Link>
+					{/* </Link> */}
 					<p>{designation}</p>
 				</div>
 			</div>
